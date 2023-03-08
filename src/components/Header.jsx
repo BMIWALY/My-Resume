@@ -32,9 +32,9 @@ function Header() {
 
 
                 <div className='header-profile-image' >
-                    <img className='bullet-points-image-1' src="../src/image/element/Bullet Points.png" />
-                    <img className='bullet-points-image-2' src="../src/image/element/Bullet Points.png" />
-                    <img className='profile-image' src="../src/image/profile-image/profile-image-7.PNG" />
+                    <img className='bullet-points-image-1' src="../../public/image/element/Bullet Points.png" />
+                    <img className='bullet-points-image-2' src="../../public/image/element/Bullet Points.png" />
+                    <img className='profile-image' src="../../public/image/profile-image/profile-image-7.png" />
 
                 </div>
 
