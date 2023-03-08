@@ -1,4 +1,7 @@
 import socialMediaIcons from "../data/socialMediaIcons"
+import BulletPoints from "../../public/image/element/Bullet Points.png"
+import profileImage from "../../public/image/profile-image/profile-image-7.png"
+
 
 function Header() {
 
@@ -32,9 +35,9 @@ function Header() {
 
 
                 <div className='header-profile-image' >
-                    <img className='bullet-points-image-1' src="../../public/image/element/Bullet Points.png" />
-                    <img className='bullet-points-image-2' src="../../public/image/element/Bullet Points.png" />
-                    <img className='profile-image' src="../../public/image/profile-image/profile-image-7.png" />
+                    <img className='bullet-points-image-1' src={BulletPoints}/>
+                    <img className='bullet-points-image-2' src={BulletPoints} />
+                    <img className='profile-image' src={profileImage} />
 
                 </div>
 
