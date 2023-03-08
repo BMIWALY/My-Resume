@@ -9,7 +9,8 @@
 .header{
     width: 100vw;
     height: 450px;
-    background-color: #E5E5E5;
+    background-color: #FAF4F2
+    ;
     display: flex;
     flex-direction: column;
 
@@ -193,7 +194,8 @@ position: relative;
 .soft-skill-section{
   width: 100vw;
   height: 350px;
-  background-color: #E5E5E5;
+  background-color: #FAF4F2
+  ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -260,7 +262,8 @@ position: relative;
 .portfolio-section{
   width: 100vw;
   height: 450px;
-  background-color: #E5E5E5;
+  background-color: #FAF4F2
+  ;
   display: flex;
   flex-direction: column;
   justify-content: center;
