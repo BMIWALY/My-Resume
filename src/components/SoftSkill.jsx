@@ -10,7 +10,7 @@ function SoftSkill() {
             {softSkillDetail.map((item, index) => {
                 return (
                     <div className="soft-skill-box" key={index}>
-                        <div className="soft-skill-icon "> <img className="soft-skill-img" src={item.icon}/></div>
+                        <div className="soft-skill-icon "> <img className="soft-skill-img" src={item.icon} alt={item.skill}/></div>
                         <p className="soft-skill" >{item.skill}</p>
                         <p className="soft-skill-detail" >{item.detail}</p>
                     </div>

@@ -8,17 +8,35 @@ import port6 from "../../public/image/portfolio/port-6.png"
 
 const portfolio = [
 
-    { img: port1 },
+    {
+        img: port1,
+        name: "portfolio image 1"
+    },
 
-    { img:port2},
+    {
+        img: port2,
+        name: "portfolio image 2"
+    },
 
-    { img:port3},
+    {
+        img: port3,
+        name: "portfolio image 3"
+    },
 
-    { img:port4},
+    {
+        img: port4,
+        name: "portfolio image 4"
+    },
 
-    { img:port5},
+    {
+        img: port5,
+        name: "portfolio image 5"
+    },
 
-    { img:port6},
+    {
+        img: port6,
+        name: "portfolio image 6"
+    },
 
 ]
 

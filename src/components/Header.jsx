@@ -1,9 +1,15 @@
+/** @jsxImportSource @emotion/react */
+
+import { css } from "@emotion/react";
+
+
 import socialMediaIcons from "../data/socialMediaIcons"
 import BulletPoints from "../../public/image/element/Bullet Points.png"
 import profileImage from "../../public/image/profile-image/profile-image-7.png"
 
 
 function Header() {
+
 
     return (
         <div className='header'>
@@ -22,7 +28,15 @@ function Header() {
                         <p className="introduction-detail">Follow me</p>
                         {socialMediaIcons.map((item, index) => {
                             return (
-                                <div className="social-media-icons" key={index}> <img className="social-media-icons-img" src={item.icon} />  </div>
+                                <a href={item.url}>
+                                    <div className="social-media-icons" key={index}
+                                        css={css`background-color: ${item.bgColor} ;`} >
+
+                                        <img className="social-media-icons-img" src={item.icon} alt={item.name} />
+
+                                    </div>
+                                </a>
+
                             )
                         })}
                     </div>
@@ -35,9 +49,9 @@ function Header() {
 
 
                 <div className='header-profile-image' >
-                    <img className='bullet-points-image-1' src={BulletPoints}/>
+                    <img className='bullet-points-image-1' src={BulletPoints} />
                     <img className='bullet-points-image-2' src={BulletPoints} />
-                    <img className='profile-image' src={profileImage} />
+                    <img className='profile-image' src={profileImage} alt="Profile Image" />
 
                 </div>
 

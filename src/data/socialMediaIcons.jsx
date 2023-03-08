@@ -6,25 +6,29 @@ import emailIcon from "../../public/image/socialMediaIcons/email-icon.png"
 
 const socialMediaIcons = [
 
-{   name: "facebook",
+{   name: "facebook icon",
     icon: fbIcon,
-    bgColor:"#728CF7"
+    bgColor:"#728CF7",
+    url:"https://www.facebook.com/"
 
 },
-{   name: "twitter",
+{   name: "twitter icon",
     icon: twIcon,
-    bgColor:"#E17094" 
+    bgColor:"#E17094",
+    url:"https://www.twitter.com/" 
 
 },
-{   name: "instagram",
+{   name: "instagram icon",
     icon: igIcon,
-    bgColor:"#68AAF3" 
+    bgColor:"#68AAF3",
+    url:"https://www.instagram.com/" 
 
 },
 
-{   name: "email",
+{   name: "email icon",
     icon: emailIcon,
-    bgColor:"#FF9B70"
+    bgColor:"#FF9B70",
+    url:"https://mail.google.com/"
   
 },
 

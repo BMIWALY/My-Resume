@@ -10,7 +10,7 @@ function Portfolio() {
             {portfolio.map((item, index) => {
                 return (
                     <div className="portfolio-box" key={index}>
-                        <div className="portfolio-icon "> <img className="portfolio-img" src={item.img}/></div>
+                        <div className="portfolio-icon "> <img className="portfolio-img" src={item.img} alt={item.name}/></div>
 
                     </div>
                 )
