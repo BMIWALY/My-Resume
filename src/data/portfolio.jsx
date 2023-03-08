@@ -1,16 +1,24 @@
+import port1 from "../src/image/portfolio/port-1.PNG"
+import port2 from "../src/image/portfolio/port-2.PNG"
+import port3 from "../src/image/portfolio/port-3.PNG"
+import port4 from "../src/image/portfolio/port-4.PNG"
+import port5 from "../src/image/portfolio/port-5.PNG"
+import port6 from "../src/image/portfolio/port-6.PNG"
+
+
 const portfolio =[
 
-    { img:"../src/image/portfolio/port-1.PNG"},
+    { img:port1},
     
-    { img:"../src/image/portfolio/port-2.PNG"},
+    { img:port2},
     
-    { img:"../src/image/portfolio/port-3.PNG"},
+    { img:port3},
     
-    { img:"../src/image/portfolio/port-4.PNG"},
+    { img:port4},
 
-    { img:"../src/image/portfolio/port-5.PNG"},
+    { img:port5},
 
-    { img:"../src/image/portfolio/port-6.PNG"},
+    { img:port6},
     
     ]
     
