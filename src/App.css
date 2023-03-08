@@ -12,6 +12,7 @@
     background-color: #E5E5E5;
     display: flex;
     flex-direction: column;
+
     gap: 10px;
 
 }
@@ -235,7 +236,7 @@ position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 35px;
 
 }
 
@@ -243,12 +244,12 @@ position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 150px);
-  grid-gap: 20px;
+  grid-gap: 15px;
 }
 
 .portfolio-img{
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
 
 }
 
